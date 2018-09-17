@@ -4,12 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Oliver Robinson">
 	<title>Title</title>
-	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 
 <div class="topnav" id="topnav">
-	<a href="index.html" class="active">Home</a>
+	<a href="index.php" class="active">Home</a>
 	<a href="mywork.html">My Work</a>
 	<a href="about.html">About Me</a>
 	<a href="contactme.html">Contact Me</a>
