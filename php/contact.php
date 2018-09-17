@@ -31,7 +31,6 @@ if(isset($_POST['email'])) {
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
 
-    /*
 
     if(!preg_match($email_exp,$email_from)) {
         $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
@@ -62,8 +61,6 @@ if(isset($_POST['email'])) {
         $bad = array("content-type","bcc:","to:","cc:","href");
         return str_replace($bad,"",$string);
     }
-
-    */
 
 
 
