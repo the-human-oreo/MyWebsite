@@ -85,17 +85,21 @@ include 'prefab/nav.php';
 
         <h2>Contact</h2>
 
-        <form action="mailto:oliver.robinson@devwork.co.uk" method="post">
+        <form name="contactform" action="php/contact.php" method="post">
 
             <label for="name"><h3>Name</h3></label>
             <input type="text" id="name" placeholder="Your name here.">
             <p></p>
 
-            <label for="emailAddress">Email Address</label>
+            <label for="subject"><h3>Subject</h3></label>
+            <input type="text" id="name" placeholder="Your name here.">
+            <p></p>
+
+            <label for="emailAddress"><h3>Email Address</h3></label>
             <input type="email" id="emailAddress" placeholder="Your email here." required>
             <p></p>
 
-            <label for="message">Your Message</label>
+            <label for="message"><h3>Your Message</h3></label>
             <textarea id="message" name="message" placeholder="Your message here." required></textarea>
             <p></p>
 
