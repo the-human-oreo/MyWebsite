@@ -14,12 +14,6 @@ include 'prefab/header.php';
         ?>
     </style>
 
-<?php
-include 'prefab/nav.php';
-?>
-
-
-
     <section id="home">
 
         <p>
