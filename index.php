@@ -9,10 +9,14 @@ include 'prefab/header.php';
 ?>
 
     <style>
-        <?php
-        include 'css/style.css';
-        ?>
+
     </style>
+
+<?php
+include 'prefab/nav.php';
+?>
+
+
 
     <section id="home">
 
